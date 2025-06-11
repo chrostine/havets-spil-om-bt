@@ -17,13 +17,15 @@ body {
   height: 100vh;
 }
 
+header{
+  margin:15px;
+}
+
 #trawl-slider-container {
   margin-top: 27px;
   display: none;
   width: 100%;
 }
-
-
 
 #trawl-midt {
   display: flex;

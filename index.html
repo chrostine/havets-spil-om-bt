@@ -1,13 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Havet under pres</title>
+</head>
+
+<body>
+  <canvas class="wave-xp" id="baggrund"></canvas>
+  <div id="baaden"></div>
+  <div id="maskotten"></div>
+  <div id="app">
+    <!-- Text boks -->
+    <div class="screen-text">
+      <div class="new-text">
+        <p></p>
+      </div>
+      <div class="new-options" id="spillet">
+        <button id="user-click" class="start-btn">Start spillet</button>
+      </div>
+      <div id="trawl-midt">
+        <div id="trawl-slider-container">
+          <input type="range" id="trawl-slider" min="0" max="160" value="0" />
+        </div>
+      </div>
+    </div>
+    <!-- text boks slut -->
+    <div id="nettet"></div>
+    <div id="sandet"></div>
+    <div id="tanget"></div>
+    <div class="indhold">
+      <div id="aquarium"></div>
+
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

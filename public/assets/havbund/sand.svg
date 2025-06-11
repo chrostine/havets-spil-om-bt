@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 610.82">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2ddc7;
+      }
+
+      .cls-2 {
+        fill: #c4ad97;
+      }
+    </style>
+  </defs>
+  <g id="sand">
+    <g>
+      <path id="sand-2" data-name="sand" class="cls-1" d="M0,610.82h1920V41.36c-5.64-.28-14.21-.71-24.61-1.32-103.02-5.99-163.98-15.45-221.34-21.56-70.81-7.55-121.98-8.48-200.15-9.91-34.72-.63-110.19-1.44-208.07,2.97-80.45,3.63-98.93,7.3-185.25,12.55-9.33.57-127.93,7.67-227.21,8.03-178.42.65-179.77-20.89-406.95-29.51C379.91.11,282.74-1.74,166.02,2.63,99.37,5.12,42.76,9.03,0,12.54v598.29Z"/>
+      <g>
+        <g>
+          <circle class="cls-2" cx="38.4" cy="69.12" r="6.05"/>
+          <circle class="cls-2" cx="51.24" cy="88.17" r="10.51"/>
+          <circle class="cls-2" cx="61.75" cy="61.27" r="7.84"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="399.49" cy="134.86" r="7.34"/>
+          <circle class="cls-2" cx="412.12" cy="109.99" r="12.76"/>
+          <circle class="cls-2" cx="377.38" cy="114.71" r="9.52"/>
+          <circle class="cls-2" cx="428.72" cy="134.86" r="5.45"/>
+        </g>
+        <g>
+          <ellipse class="cls-2" cx="781.29" cy="79.57" rx="4.64" ry="4.77" transform="translate(-4.03 83.64) rotate(-6.11)"/>
+          <ellipse class="cls-2" cx="767.83" cy="91.21" rx="8.07" ry="8.3" transform="translate(-5.35 82.27) rotate(-6.11)"/>
+          <ellipse class="cls-2" cx="789.24" cy="97.26" rx="6.02" ry="6.19" transform="translate(-5.87 84.59) rotate(-6.11)"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1090.02" cy="169.94" r="6.05"/>
+          <circle class="cls-2" cx="1102.87" cy="150.89" r="10.51"/>
+          <circle class="cls-2" cx="1113.38" cy="177.78" r="7.84"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="147.51" cy="213.01" r="5.63"/>
+          <circle class="cls-2" cx="152.61" cy="233.81" r="9.8"/>
+          <circle class="cls-2" cx="170.46" cy="213.68" r="7.31"/>
+          <circle class="cls-2" cx="130.49" cy="227.64" r="4.19"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="628.33" cy="255.85" r="7.15"/>
+          <circle class="cls-2" cx="635.27" cy="229.6" r="12.43"/>
+          <circle class="cls-2" cx="657.46" cy="255.54" r="9.27"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1679.85" cy="294.28" r="6.05"/>
+          <circle class="cls-2" cx="1667" cy="313.32" r="10.51"/>
+          <circle class="cls-2" cx="1656.49" cy="286.43" r="7.84"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1310.65" cy="410.09" r="7.34"/>
+          <circle class="cls-2" cx="1298.02" cy="385.22" r="12.76"/>
+          <circle class="cls-2" cx="1332.76" cy="389.94" r="9.52"/>
+          <circle class="cls-2" cx="1281.42" cy="410.09" r="5.45"/>
+        </g>
+        <g>
+          <ellipse class="cls-2" cx="956.22" cy="314.28" rx="4.77" ry="4.64" transform="translate(541.91 1231.6) rotate(-83.89)"/>
+          <ellipse class="cls-2" cx="969.68" cy="325.92" rx="8.3" ry="8.07" transform="translate(542.36 1255.39) rotate(-83.89)"/>
+          <ellipse class="cls-2" cx="948.27" cy="331.97" rx="6.19" ry="6.02" transform="translate(517.21 1239.51) rotate(-83.89)"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="724.69" cy="449.85" r="5.63"/>
+          <circle class="cls-2" cx="734.38" cy="430.75" r="9.8"/>
+          <circle class="cls-2" cx="707.71" cy="434.38" r="7.31"/>
+          <circle class="cls-2" cx="747.13" cy="449.85" r="4.19"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="465.38" cy="530.73" r="6.05"/>
+          <circle class="cls-2" cx="452.54" cy="511.68" r="10.51"/>
+          <circle class="cls-2" cx="442.02" cy="538.57" r="7.84"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1541.6" cy="508.47" r="5.63"/>
+          <circle class="cls-2" cx="1536.5" cy="529.26" r="9.8"/>
+          <circle class="cls-2" cx="1518.64" cy="509.13" r="7.31"/>
+          <circle class="cls-2" cx="1558.61" cy="523.1" r="4.19"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1054.18" cy="512.05" r="7.15"/>
+          <circle class="cls-2" cx="1047.24" cy="485.79" r="12.43"/>
+          <circle class="cls-2" cx="1025.06" cy="511.73" r="9.27"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="292.67" cy="376.33" r="6.05"/>
+          <circle class="cls-2" cx="279.82" cy="395.37" r="10.51"/>
+          <circle class="cls-2" cx="269.31" cy="368.48" r="7.84"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="99.87" cy="516.01" r="5.63"/>
+          <circle class="cls-2" cx="94.77" cy="536.81" r="9.8"/>
+          <circle class="cls-2" cx="76.91" cy="516.67" r="7.31"/>
+          <circle class="cls-2" cx="116.88" cy="530.64" r="4.19"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1330.33" cy="75.29" r="5.63"/>
+          <circle class="cls-2" cx="1340.02" cy="56.19" r="9.8"/>
+          <circle class="cls-2" cx="1313.35" cy="59.82" r="7.31"/>
+          <circle class="cls-2" cx="1352.77" cy="75.29" r="4.19"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1552.58" cy="148.01" r="6.05"/>
+          <circle class="cls-2" cx="1539.73" cy="128.96" r="10.51"/>
+          <circle class="cls-2" cx="1529.22" cy="155.85" r="7.84"/>
+        </g>
+        <g>
+          <circle class="cls-2" cx="1892.78" cy="449.19" r="6.05"/>
+          <circle class="cls-2" cx="1879.93" cy="468.24" r="10.51"/>
+          <circle class="cls-2" cx="1869.42" cy="441.35" r="7.84"/>
+        </g>
+        <g>
+          <ellipse class="cls-2" cx="1882.95" cy="154.34" rx="4.77" ry="4.64" transform="translate(1529 2010.15) rotate(-83.89)"/>
+          <ellipse class="cls-2" cx="1896.41" cy="165.98" rx="8.3" ry="8.07" transform="translate(1529.46 2033.94) rotate(-83.89)"/>
+          <ellipse class="cls-2" cx="1875" cy="172.03" rx="6.19" ry="6.02" transform="translate(1504.31 2018.06) rotate(-83.89)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

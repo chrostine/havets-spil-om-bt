@@ -1,11 +1,11 @@
 @font-face {
   font-family: myBreadFont;
-  src: url("/public/font/ITPRegular.TTF");
+  src: url("/assets/font/ITPRegular.TTF");
 }
 
 @font-face {
   font-family: myKnapFont;
-  src: url("/public/font/ITPBold.TTF");
+  src: url("/assets/font/ITPBold.TTF");
 }
 
 body {

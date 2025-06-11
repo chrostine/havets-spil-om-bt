@@ -21,6 +21,31 @@ header{
   margin:15px;
 }
 
+#nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+a:link{
+  color: white;
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 #trawl-slider-container {
   margin-top: 27px;
   display: none;

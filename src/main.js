@@ -151,30 +151,33 @@ function showText(kapitel) {
     });
   }
 
-  // Afspil baggrundslyd afhængigt af vandhøjden
   const vandNiveau = gameData[kapitel].waterLevel;
 
   let baggrundslyd = "";
 
   if (vandNiveau >= 0) {
-    baggrundslyd = "/assets/lyd/overflade.mp3"; // fx. blid havlyd
+    baggrundslyd = "/assets/lyd/overflade.mp3";
   } else {
-    baggrundslyd = "/assets/lyd/dybde.mp3"; // fx. undervandslyd
+    baggrundslyd = "/assets/lyd/dybde.mp3";
   }
 
   if (baggrundslyd) {
-    if (havets_lyd.src !== location.origin + "/" + baggrundslyd) {
+    const fullSrc = location.origin + baggrundslyd;
+    if (havets_lyd.src !== fullSrc) {
       havets_lyd.pause();
-      havets_lyd.src = baggrundslyd;
+      havets_lyd.src = fullSrc;
       havets_lyd.loop = true;
       havets_lyd.volume = 0.06;
       havets_lyd.play().catch((err) => {
         console.warn("Baggrundslyd kunne ikke afspilles:", err);
       });
+    } else if (havets_lyd.paused) {
+      havets_lyd.play().catch((err) => {
+        console.warn("Baggrundslyd kunne ikke genoptages:", err);
+      });
     }
   }
 }
-
 function showChoices(kapitel) {
   optionsEl.innerHTML = "";
 

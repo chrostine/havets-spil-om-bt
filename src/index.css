@@ -62,6 +62,7 @@ body {
   border: none;
   color: white;
   cursor: pointer;
+  transition-duration: 0.1s
 }
 
 .start-btn {
@@ -76,6 +77,15 @@ body {
   border: none;
   color: white;
   cursor: pointer;
+  transition-duration: 0.1s
+}
+
+.btn:hover {
+  background-color: #BA5A37;
+}
+
+.start-btn:hover {
+  background-color: #BA5A37;
 }
 
 .screen-text {

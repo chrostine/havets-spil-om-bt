@@ -1,5 +1,3 @@
-import "./index.css";
-
 let gameData = [
   // 0
   {

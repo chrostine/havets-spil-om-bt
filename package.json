@@ -5,7 +5,7 @@
   "homepage": "https://chrostine.github.io/havets-spil-om-bt/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run dev",
+    "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",

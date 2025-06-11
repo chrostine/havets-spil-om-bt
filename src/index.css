@@ -1,11 +1,11 @@
 @font-face {
   font-family: myBreadFont;
-  src: url("/assets/font/ITPRegular.TTF");
+  src: url("/public/font/ITPRegular.TTF");
 }
 
 @font-face {
   font-family: myKnapFont;
-  src: url("/assets/font/ITPBold.TTF");
+  src: url("/public/font/ITPBold.TTF");
 }
 
 body {
@@ -31,7 +31,7 @@ body {
   align-items: center;
 }
 
-/* #trawl-slider {
+#trawl-slider {
   -webkit-appearance: none;
   width: 100%;
   height: 20px;
@@ -39,7 +39,7 @@ body {
   background: #2B6797;
   border-radius: 10px;
   ;
-} */
+}
 
 #trawl-slider::-webkit-slider-thumb {
   -webkit-appearance: none;

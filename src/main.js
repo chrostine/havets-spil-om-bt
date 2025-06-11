@@ -5,7 +5,7 @@ let gameData = [
   {
     text: "Bundtrawl er en måde at fiske på, hvor store og tunge net bliver trukket hen over havbunden.",
     waterLevel: 25,
-    sound: "assets/lyd/default.mp3",
+    sound: "./public/lyd/default.mp3",
     options: [
       {
         text: "Videre",
@@ -17,7 +17,7 @@ let gameData = [
   {
     text: "Bundtrawl fanger mange fisk, men det ødelægger miljøet i havet og gør stor skade på dyrene og planterne, som lever på bunden.",
     waterLevel: 25,
-    sound: "assets/lyd/0.mp3",
+    sound: "./public/lyd/0.mp3",
     options: [
       {
         text: "Prøv at fiske med bundtrawl",
@@ -39,7 +39,7 @@ let gameData = [
   {
     text: "Når man trawler, bliver havbunden og planterne revet op, og tang og ålegræs kan blive helt ødelagte.",
     waterLevel: -60,
-    sound: "assets/lyd/2.mp3",
+    sound: "./public/lyd/2.mp3",
     options: [
       {
         text: "Videre",
@@ -51,7 +51,7 @@ let gameData = [
   {
     text: "Det forstyrrer og ødelægger levesteder for mange fisk og smådyr på havbunden.",
     waterLevel: -60,
-    sound: "assets/lyd/3.mp3",
+    sound: "./public/lyd/3.mp3",
     options: [
       {
         text: "Videre",
@@ -63,7 +63,7 @@ let gameData = [
   {
     text: "Planter som tang og ålegræs hjælper med at opfange CO2 - ligesom træer gør på land.",
     waterLevel: -60,
-    sound: "assets/lyd/4.mp3",
+    sound: "./public/lyd/4.mp3",
     options: [
       {
         text: "Videre",
@@ -75,7 +75,7 @@ let gameData = [
   {
     text: "Når disse planter ødelægges bliver noget af CO2’en sluppet fri igen - først i havet og derefter op i luften. Det kan være med til at gøre klimaforandringerne værre.",
     waterLevel: -60,
-    sound: "assets/lyd/5.mp3",
+    sound: "./public/lyd/5.mp3",
     options: [
       {
         text: "Prøv at fiske med bundtrawl igen",
@@ -87,7 +87,7 @@ let gameData = [
   {
     text: "Når vi passer på havet, sikrer vi, at der er fisk nok i havet i fremtiden.",
     waterLevel: 25,
-    sound: "assets/lyd/6.mp3",
+    sound: "./public/lyd/6.mp3",
     options: [
       {
         text: "Videre",
@@ -99,7 +99,7 @@ let gameData = [
   {
     text: "Ved at fiske med skånsomme redskaber - altså redskaber der ikke ødelægger havbunden - bliver fiskene større og sundere, og der kommer flere.",
     waterLevel: 25,
-    sound: "assets/lyd/7.mp3",
+    sound: "./public/lyd/7.mp3",
     options: [
       {
         text: "Start forfra",
@@ -157,9 +157,9 @@ function showText(kapitel) {
   let baggrundslyd = "";
 
   if (vandNiveau >= 0) {
-    baggrundslyd = "assets/lyd/overflade.mp3"; // fx. blid havlyd
+    baggrundslyd = "./public/lyd/overflade.mp3"; // fx. blid havlyd
   } else {
-    baggrundslyd = "assets/lyd/dybde.mp3"; // fx. undervandslyd
+    baggrundslyd = "./public/lyd/dybde.mp3"; // fx. undervandslyd
   }
 
   if (baggrundslyd) {
@@ -307,7 +307,7 @@ window.addEventListener("resize", updateSliderMax);
 function initTrawl() {
   if (!trawlImg) {
     trawlImg = document.createElement("img");
-    trawlImg.src = "/assets/net.svg";
+    trawlImg.src = "./public/net.svg";
     trawlImg.id = "bundtrawl";
     trawlImg.style.position = "fixed";
     trawlImg.style.bottom = "15px";
@@ -431,7 +431,7 @@ function toggleMaskot() {
   if (maskotVisible && !existingMaskot) {
     const maskot = document.createElement("img");
     maskot.id = "maskot";
-    maskot.src = "/assets/maskot.svg";
+    maskot.src = "./public/maskot.svg";
     maskotContainer.appendChild(maskot);
   } else if (!maskotVisible && existingMaskot) {
     existingMaskot.remove();
@@ -459,9 +459,9 @@ function createFish() {
   const direction = Math.random() > 0.5 ? "left-to-right" : "right-to-left";
 
   if (currentState >= 3) {
-    fish.src = `/assets/skelet.svg`;
+    fish.src = `./public/skelet.svg`;
   } else {
-    fish.src = `/assets/fisk/fish_${fishIndex}.svg`;
+    fish.src = `./public/fisk/fish_${fishIndex}.svg`;
   }
   fish.classList.add("fish");
 
@@ -528,7 +528,7 @@ function createBubble() {
   if (!toggleBubble) return;
 
   const bubble = document.createElement("img");
-  bubble.src = `/assets/havbund/boble.svg`;
+  bubble.src = `./public/havbund/boble.svg`;
   bubble.classList.add("boble");
 
   const size = randomBubble(10, 20);
@@ -582,7 +582,7 @@ function toggleSand() {
   if (sandVisible && !existingSand) {
     const sand = document.createElement("img");
     sand.id = "sand";
-    sand.src = "/assets/havbund/sand.svg";
+    sand.src = "./public/havbund/sand.svg";
     sandContainer.appendChild(sand);
   } else if (!sandVisible && existingSand) {
     existingSand.remove();
@@ -597,7 +597,7 @@ let tangVisible = false;
 const tangCount = 12;
 const tangArray = Array.from(
   { length: tangCount },
-  (_, i) => `/assets/havbund/tang_${i + 1}.svg`
+  (_, i) => `./public/havbund/tang_${i + 1}.svg`
 );
 
 let tangAlreadyGenerated = false;

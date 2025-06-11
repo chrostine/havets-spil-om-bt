@@ -431,7 +431,7 @@ function toggleMaskot() {
   if (maskotVisible && !existingMaskot) {
     const maskot = document.createElement("img");
     maskot.id = "maskot";
-    maskot.src = "/assets/maskot.svg";
+    maskot.src = "./assets/maskot.svg";
     maskotContainer.appendChild(maskot);
   } else if (!maskotVisible && existingMaskot) {
     existingMaskot.remove();
